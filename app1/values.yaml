@@ -6,12 +6,18 @@ replicaCount: 1
 worker:
   image:
     name: worker
-    repository: "192.168.157.4:32380"
+    repository: "192.168.157.50:31447"
     project: demo
     tag: sprint_0001-fddeac8
 result:
   image:
     name: result
+    repository: "192.168.157.50:31447"
+    project: demo
+    tag: main-4cce598
+vote:
+  image:
+    name: vote
     repository: "192.168.157.50:31447"
     project: demo
     tag: main-4cce598
