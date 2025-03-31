@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: {{ $.Values.result.image.repository }}/{{ $.Values.result.image.project }}/{{ $.Values.result.image.name }}:{{ $.Values.result.image.tag }}
+      - image: image
         name: result
         ports:
         - containerPort: 80
